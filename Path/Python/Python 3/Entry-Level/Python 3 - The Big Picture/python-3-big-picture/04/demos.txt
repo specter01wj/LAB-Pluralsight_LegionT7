@@ -1,0 +1,7 @@
+https://docs.python.org/3/library/index.html
+https://peps.python.org/
+https://peps.python.org/pep-0020/
+https://docs.python.org/3/
+https://www.python.org/community-landing/
+https://www.python.org/psf-landing/
+https://pypi.org/

@@ -1,7 +1,10 @@
 import sys
 import random
 
-computer_choice = random.choice(['rock', 'paper', 'scissors'])
+computer_choice = random.choices(
+    population=['rock', 'paper', 'scissors'],
+    weights=[0.7, 0.2, 0.1]  # probabilities must sum to 1.0
+)[0]
 
 while True:
     user_input = input("Choose rock (R), paper (P), or scissors (S):\n").strip().lower()

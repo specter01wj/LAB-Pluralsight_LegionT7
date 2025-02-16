@@ -153,3 +153,39 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# Gradle files
+.gradle/
+**/build/
+**/out/
+**/captures/
+local.properties
+
+# Android Studio files
+/.idea/
+/*.iml
+
+# Keystore files (Important: Never commit sensitive keys!)
+*.jks
+*.keystore
+
+# Log files
+*.log
+log/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Miscellaneous
+*.class
+*.apk
+*.aab
+*.dex
+*.jar
+*.so
+*.map
+*.hprof
+*.cxx/
+
+

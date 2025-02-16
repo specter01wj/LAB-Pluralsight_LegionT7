@@ -203,4 +203,4 @@ Thumbs.db
 .externalNativeBuild
 .cxx
 local.properties
-app/src/main/res/*
+

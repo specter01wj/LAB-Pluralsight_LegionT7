@@ -13,6 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.jinwang.myapp_todolist.ui.theme.MyApp_todolistTheme
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.unit.dp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,7 +44,28 @@ fun GreetingPreview() {
 
 @Composable
 fun TodoApp(viewModel: TaskViewModel = viewModel()) {
-    // UI will be implemented in the next step
+    var taskText by remember { mutableStateOf(TextFieldValue("")) }
+
+    Column(modifier = Modifier.padding(16.dp)) {
+        TextField(
+            value = taskText,
+            onValueChange = { taskText = it },
+            label = { Text("Enter a task") },
+            modifier = Modifier.fillMaxWidth()
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Button(
+            onClick = {
+                viewModel.addTask(taskText.text)
+                taskText = TextFieldValue("") // Clear input after adding
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Add Task")
+        }
+    }
 }
 
 

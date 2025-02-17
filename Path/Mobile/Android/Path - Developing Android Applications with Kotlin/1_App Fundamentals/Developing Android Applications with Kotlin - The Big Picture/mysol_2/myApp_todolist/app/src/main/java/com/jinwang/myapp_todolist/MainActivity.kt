@@ -32,6 +32,7 @@ import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Surface
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.text.style.TextDecoration
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -120,7 +121,9 @@ fun TodoApp(viewModel: TaskViewModel = viewModel()) {
                                 Text(
                                     text = if (task.isCompleted) "✔ ${task.title}" else task.title,
                                     modifier = Modifier.weight(1f),
-                                    style = MaterialTheme.typography.bodyLarge
+                                    style = MaterialTheme.typography.bodyLarge.copy(
+                                        textDecoration = if (task.isCompleted) TextDecoration.LineThrough else TextDecoration.None
+                                    )
                                 )
 
                                 IconButton(onClick = { viewModel.removeTask(task.id) }) {

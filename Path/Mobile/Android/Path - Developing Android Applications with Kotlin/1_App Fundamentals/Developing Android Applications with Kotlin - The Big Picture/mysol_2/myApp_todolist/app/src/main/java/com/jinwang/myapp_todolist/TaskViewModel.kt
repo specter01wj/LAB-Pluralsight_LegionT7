@@ -1,6 +1,5 @@
 package com.jinwang.myapp_todolist
 
-import androidx.lifecycle.ViewModel
 import androidx.compose.runtime.mutableStateListOf
 import android.app.Application
 import android.content.Context

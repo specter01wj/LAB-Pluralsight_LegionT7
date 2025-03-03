@@ -1,15 +1,19 @@
-current_movies = {'The Grinch': '11:00am',
-                 'Rudolph': '1:00pm',
-                 'Frosty the Snowman': '3:00pm',
-                 'Christmas Vacation': '5:00pm'}
+current_movies = {
+    'The Grinch': '11:00am',
+    'Rudolph': '1:00pm',
+    'Frosty the Snowman': '3:00pm',
+    'Christmas Vacation': '5:00pm'
+}
 
 print("We're showing the following movies:")
-for key in current_movies:
-    print(key)
-movie = input('What movie would you like the showtime for?\n')
+print(", ".join(current_movies.keys()))  # More compact display
 
-showtime = current_movies.get(movie)
-if(showtime == None):
+movie = input('What movie would you like the showtime for?\n').strip()
+
+# Normalize input for case-insensitive matching
+showtime = current_movies.get(movie.title())
+
+if not showtime:
     print("Requested movie isn't playing")
 else:
-    print(movie, 'is playing at', showtime)
+    print(f"{movie} is playing at {showtime}")

@@ -1,8 +1,8 @@
 import os
 import shutil
 
-folder_original = 'D:/My_Learning_Center/Web_Courses/LAB-Pluralsight_LegionT7/Path/Python/Python 3/Entry-Level/Python 3 Fundamentals/python-3-fundamentals/08/mysol_1/test/'
-folder_destination = 'D:/My_Learning_Center/Web_Courses/LAB-Pluralsight_LegionT7/Path/Python/Python 3/Entry-Level/Python 3 Fundamentals/python-3-fundamentals/08/mysol_1/test/CleanedUp/'
+folder_original = 'D:/My_Learning_Center/Web_Courses/LAB-Pluralsight_LegionT7/Path/Python/Python 3/Entry-Level/Python 3 Fundamentals/python-3-fundamentals/08/mysol_1/cleanup/'
+folder_destination = 'D:/My_Learning_Center/Web_Courses/LAB-Pluralsight_LegionT7/Path/Python/Python 3/Entry-Level/Python 3 Fundamentals/python-3-fundamentals/08/mysol_1/cleanup/CleanedUp/'
 
 # Create destination folder if it doesn't exist
 os.makedirs(folder_destination, exist_ok=True)

@@ -1,0 +1,29 @@
+renpy.geometry renpy.matrixcolor renpy.solid
+renpy.alpha renpy.geometry renpy.mask
+renpy.mask renpy.mask
+renpy.alpha renpy.geometry renpy.texture
+renpy.matrixcolor renpy.solid
+renpy.geometry renpy.mask
+renpy.geometry renpy.texture
+renpy.solid
+shaders.gradient shaders.gradient
+renpy.matrixcolor renpy.alpha renpy.texture
+renpy.geometry renpy.texture shader.rounded_corners
+renpy.geometry shaders.gradient
+renpy.matrixcolor renpy.texture renpy.texture
+renpy.matrixcolor renpy.alpha renpy.mask renpy.mask
+renpy.ftl
+renpy.blur renpy.geometry renpy.matrixcolor
+renpy.alpha renpy.geometry renpy.matrixcolor renpy.texture
+renpy.alpha renpy.mask renpy.mask
+renpy.geometry renpy.solid
+renpy.geometry renpy.matrixcolor renpy.texture
+renpy.alpha renpy.geometry renpy.mask renpy.matrixcolor
+renpy.matrixcolor renpy.texture
+renpy.matrixcolor renpy.mask renpy.mask
+renpy.texture renpy.texture
+renpy.alpha renpy.texture
+renpy.geometry renpy.mask renpy.matrixcolor
+renpy.texture
+renpy.matrixcolor renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
+shader.rounded_corners renpy.texture renpy.texture

@@ -1,0 +1,35 @@
+>>> import datetime
+>>>
+>>> dt = datetime.date(2022, 11, 6)
+>>>
+>>> str(dt)
+'2022-11-06'
+>>>
+>>> repr(dt)
+'datetime.date(2022, 11, 6)'
+>>>
+>>> 2+2
+4
+>>> eval("2+2")
+4
+>>> dt2 = eval(repr(dt))
+>>> print(dt2)
+2022-11-06
+>>> str(dt2)
+'2022-11-06'
+>>>
+>>> dt
+datetime.date(2022, 11, 6)
+>>> dt2
+datetime.date(2022, 11, 6)
+>>>
+>>>
+>>> s = "hi"
+>>> str(s)
+'hi'
+>>> repr(s)
+"'hi'"
+>>> s2 = eval(repr(s))
+>>> s2
+'hi'
+>>>

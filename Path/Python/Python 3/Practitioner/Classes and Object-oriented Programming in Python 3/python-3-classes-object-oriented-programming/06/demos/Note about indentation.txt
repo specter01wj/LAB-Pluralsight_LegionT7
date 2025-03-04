@@ -1,0 +1,4 @@
+In the video lessons I used 2 spaces for indentation because I wanted to fit more characters on the 
+screen while keeping the font large and visible. 
+However, Pythons' PEP8 standard suggests the usage of 4 spaces of indentation consistently.
+Since this is the case, all of the provided source code from lessons here is properly formatted with 4 spaces.

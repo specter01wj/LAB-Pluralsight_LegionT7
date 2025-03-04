@@ -1,0 +1,55 @@
+>>> s = "hello"
+>>> i = 2
+>>> l = [1, 2, 3]
+>>> d = {"a": 2}
+>>>
+>>> s.__class__
+<class 'str'>
+>>> i.__class__
+<class 'int'>
+>>> l.__class__
+<class 'list'>
+>>> d.__class__
+<class 'dict'>
+>>>
+>>>
+>>> s = str("hello")
+>>> i = int(2)
+>>>
+>>> s.upper()
+'HELLO'
+>>> i.upper()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'upper'
+>>>
+>>> l.append(4)
+>>> l
+[1, 2, 3, 4]
+>>>
+>>> "hello".__class__
+<class 'str'>
+>>>
+>>> str("hello").__class__
+<class 'str'>
+>>>
+>>>
+>>> s = "hello"
+>>> s = 2
+>>>
+>>>
+>>> def fun():
+...     print("hi")
+...
+>>> n = None
+>>>
+>>>
+>>> fun.__class__
+<class 'function'>
+>>>
+>>> n.__class__
+<class 'NoneType'>
+>>>
+>>> n.__class__.__class__
+<class 'type'>
+>>>

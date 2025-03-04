@@ -10,3 +10,4 @@ PaaS - Platform as a Service
 IaaS - Infastructure as a Service
 ML - Machine Learning
 AI - Artificial Intelligence
+TJ - tj max!

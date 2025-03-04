@@ -10,3 +10,4 @@ PaaS - Platform as a Service
 IaaS - Infrastructure as a Service
 ML - Machine Learning
 AI - Artificial Intelligence
+BJ - blow job!

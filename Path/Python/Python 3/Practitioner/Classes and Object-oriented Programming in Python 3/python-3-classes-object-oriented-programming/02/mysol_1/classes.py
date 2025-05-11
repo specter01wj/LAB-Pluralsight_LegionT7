@@ -31,6 +31,7 @@ def init_employee(name, age, position, salary):
     return {
         "name": name,
         "age": age,
+        
         "position": position,
         "salary": salary
     }

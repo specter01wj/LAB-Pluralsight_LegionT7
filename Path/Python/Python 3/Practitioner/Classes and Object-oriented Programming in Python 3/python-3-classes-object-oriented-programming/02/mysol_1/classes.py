@@ -13,6 +13,7 @@
 # employee2 = ["Lauren", 44, "tester", 1000]
 
 
+
 employee1 = {
     "name": "Ji-Soo",
     "age": 38,
@@ -23,6 +24,7 @@ employee2 = {
     "name": "Lauren",
     "age": 44,
     "position": "tester",
+    
     "salary": 1000
 }
 

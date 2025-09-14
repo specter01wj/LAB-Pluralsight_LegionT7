@@ -17,12 +17,14 @@
 employee1 = {
     "name": "Ji-Soo",
     "age": 38,
+    
     "position": "developer",
     "salary": 1200
 }
 employee2 = {
     "name": "Lauren",
     "age": 44,
+
     "position": "tester",
     "salary": 1000
 }

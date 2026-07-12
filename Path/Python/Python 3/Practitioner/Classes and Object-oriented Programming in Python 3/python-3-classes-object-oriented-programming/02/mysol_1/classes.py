@@ -36,6 +36,7 @@ def init_employee(name, age, position, salary):
 
 
 
+
         
         "salary": salary
     }

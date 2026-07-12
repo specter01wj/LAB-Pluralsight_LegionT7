@@ -33,11 +33,6 @@ def init_employee(name, age, position, salary):
         "name": name,
         "age": age,
         "position": position,
-
-
-
-
-        
         "salary": salary
     }
 
